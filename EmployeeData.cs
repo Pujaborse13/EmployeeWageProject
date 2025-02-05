@@ -14,38 +14,45 @@ namespace EmployeeWage
         const int PART_TIME_HOUR = 4;
 
 
-        //UC3: Daily Employee Wage
+        //UC4: Using Swicth case to calculate daily wage
         public void DailyEmployeeWage()
         {
             Random random = new Random();
             int empCheck = random.Next(0, 3);
 
-            switch(empCheck)
+            int empHours = 0;
+            string workStatus = "";
+
+
+            switch (empCheck)
             {
                 case 0:
-                    Console.WriteLine("Employee is Absent");
-                    Console.WriteLine("Daily Wage: 0");
+                    workStatus = "Employee is Absent";
+                    empHours = 0;
                     break;
 
                 case 1:
-                    Console.WriteLine("Full time Employee is Present");
-                    int dailyWageFullTime = WAGE_PER_HOUR * FULL_DAY_HOUR;
-               
-                    Console.WriteLine("Daily Wage for Full time employee: " + dailyWageFullTime);
+                    workStatus = "Full time Employee is Present";
+                    empHours = FULL_DAY_HOUR;
                     break;
 
                 case 2:
-                    Console.WriteLine("Part time Employee is Present");
-                    int dailyWagePartTime = WAGE_PER_HOUR * PART_TIME_HOUR;
-                    Console.WriteLine("Daily Wage for part time employee: " + dailyWagePartTime);
+                    workStatus = "Part time Employee is Present";
+                    empHours = PART_TIME_HOUR;
                     break;
 
+                  
             }
+
+            int dailyWage = empHours * WAGE_PER_HOUR;
+            Console.WriteLine(workStatus);
+            Console.WriteLine("Employee Wage for the day is: " + dailyWage);
+
 
         }
 
 
-     }
+    }
 
 
 }
