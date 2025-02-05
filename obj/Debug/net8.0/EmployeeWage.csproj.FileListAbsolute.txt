@@ -1,0 +1,14 @@
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.GeneratedMSBuildEditorConfig.editorconfig
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.AssemblyInfoInputs.cache
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.AssemblyInfo.cs
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.csproj.CoreCompileInputs.cache
+D:\AcessMeditech\EmployeeWage\EmployeeWage\bin\Debug\net8.0\EmployeeWage.exe
+D:\AcessMeditech\EmployeeWage\EmployeeWage\bin\Debug\net8.0\EmployeeWage.deps.json
+D:\AcessMeditech\EmployeeWage\EmployeeWage\bin\Debug\net8.0\EmployeeWage.runtimeconfig.json
+D:\AcessMeditech\EmployeeWage\EmployeeWage\bin\Debug\net8.0\EmployeeWage.dll
+D:\AcessMeditech\EmployeeWage\EmployeeWage\bin\Debug\net8.0\EmployeeWage.pdb
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.dll
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\refint\EmployeeWage.dll
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.pdb
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.genruntimeconfig.cache
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\ref\EmployeeWage.dll
