@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace EmployeeWage
 {
 
-    internal class EmployeeWage1
+    internal class EmployeeData
     {
         //UC1: Employee Attendance
 

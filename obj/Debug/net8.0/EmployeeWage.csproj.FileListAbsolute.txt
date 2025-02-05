@@ -12,3 +12,4 @@ D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\refint\EmployeeWage.
 D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.pdb
 D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.genruntimeconfig.cache
 D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\ref\EmployeeWage.dll
+D:\AcessMeditech\EmployeeWage\EmployeeWage\obj\Debug\net8.0\EmployeeWage.sourcelink.json
