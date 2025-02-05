@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         EmployeeData employeeData = new EmployeeData();
-        employeeData.DailyEmployeeWage();
+        employeeData.MonthlyEmployeeWage();
 
 
     }

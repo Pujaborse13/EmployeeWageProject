@@ -7,52 +7,56 @@ using System.Threading.Tasks;
 namespace EmployeeWage
 {
 
-     class EmployeeData
-     {
+    class EmployeeData
+    {
         const int WAGE_PER_HOUR = 20;
         const int FULL_DAY_HOUR = 8;
         const int PART_TIME_HOUR = 4;
+        const int WORKING_DAYS_PER_MONTH = 20;
 
 
-        //UC4: Using Swicth case to calculate daily wage
-        public void DailyEmployeeWage()
+
+        //UC5: Calculate Wages for a Month
+        public void MonthlyEmployeeWage()
         {
-            Random random = new Random();
-            int empCheck = random.Next(0, 3);
-
-            int empHours = 0;
-            string workStatus = "";
-
-
-            switch (empCheck)
+            int totalWage = 0;
+            for (int day = 1; day <= WORKING_DAYS_PER_MONTH; day++)
             {
-                case 0:
-                    workStatus = "Employee is Absent";
-                    empHours = 0;
-                    break;
+                Random random = new Random();
+                int empCheck = random.Next(0, 3);
+                int empHours = 0;
 
-                case 1:
-                    workStatus = "Full time Employee is Present";
-                    empHours = FULL_DAY_HOUR;
-                    break;
+                switch (empCheck)
+                {
+                    case 0:
+                        Console.WriteLine($"Day {day}: Employee is Absent");
+                        empHours = 0;
+                        break;
+                    case 1:
+                        Console.WriteLine($"Day {day}: Employee is Present (Full-time)");
+                        empHours = FULL_DAY_HOUR;
+                        break;
+                    case 2:
+                        Console.WriteLine($"Day {day}: Employee is Present (Part-time)");
+                        empHours = PART_TIME_HOUR;
+                        break;
 
-                case 2:
-                    workStatus = "Part time Employee is Present";
-                    empHours = PART_TIME_HOUR;
-                    break;
 
-                  
+                }
+
+                int dailyWage = empHours * WAGE_PER_HOUR;
+                totalWage += dailyWage;
+
+                Console.WriteLine($"Day {day} Wage: {dailyWage}");
+
             }
+            Console.WriteLine("\nTotal Wage for the Month: " + totalWage);
 
-            int dailyWage = empHours * WAGE_PER_HOUR;
-            Console.WriteLine(workStatus);
-            Console.WriteLine("Employee Wage for the day is: " + dailyWage);
+
 
 
         }
 
 
     }
-
-
 }
